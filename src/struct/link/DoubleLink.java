@@ -46,15 +46,14 @@ public class DoubleLink {
     }
  
     public void print() {
+		//Node<T> current = Header.next;
  
-        Node<T> current = Header.next;
- 
-        while (current.next != null) {
- 
-            System.out.println(current.data.toString());
- 
-            current = current.next;
-        }
+       /* while (current.next != null) {
+
+			System.out.println(current.data.toString());
+
+			current = current.next;
+		}*/
  
     }
  
@@ -66,10 +65,10 @@ public class DoubleLink {
         dLink.add("zmy");
         dLink.add("zzj");
  
-        System.out.println("size : " + dLink.size());
-        System.out.println("isEmpty? : " + dLink.isEmpty());
+       // System.out.println("size : " + dLink.size());
+       // System.out.println("isEmpty? : " + dLink.isEmpty());
         System.out.println("3 : " + dLink.getInt(2));
         dLink.print();
     }
 }
-}
+
